@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Website Portofolio Pribadi</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">Rohid<b>.</b></div>
+      <ul class="navItems">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#education">education</a></li>
+      </ul>
+      <div class="Links">
+        <a href="https://www.linkedin.com/in/rohit-pahti-a866a5312/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/rohit_pahti07/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/RPahti63775" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/rohit.pahti?locale=id_ID" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </nav>
+
+    <div id="home" class="wrapper">
+      <div class="cols cols0">
+        <span class="topline">Hello</span>
+        <h1>i'm <span class="multitext">Student</span></h1>
+      </div>
+      <div class="cols cols1">
+        <div class="imgbox">
+          <img src="assets/img.png" alt="Profile Image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="wrapper section">
+    <div class="about-content">
+      <div class="about-img">
+        <img src="assets/about-img.jpg" alt="About Image">
+      </div>
+      <div class="about-text">
+        <h2>About <span class="aboutaja">me</span></h2>
+        <p>Saya adalah mahasiswa Teknik Informatika yang berpengalaman dalam berbagai proyek pengembangan aplikasi dan sistem informasi. Saya memiliki pengalaman dalam pemrograman menggunakan Python dan Dart, dan dapat menggunakan framework Django dan Flutter untuk pengembangan layanan web dan aplikasi seluler. Saya juga memiliki pengalaman dalam manajemen basis data menggunakan MySQL dan merancang antarmuka pengguna yang intuitif dengan Figma. Saya mampu mengembangkan aplikasi web dan seluler yang responsif, dan memiliki keterampilan dasar dalam bahasa Inggris dan bahasa Indonesia sebagai bahasa ibu saya.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="project" class="wrapper section">
+    <h1>My Project</h1>
+    <div class="projects">
+      <div class="project-item">
+        <img src="assets/project1.png" alt="Project 1">
+        <h2>Project 1</h2>
+        <p>Sistem Informasi Hotel menggunakan Python dan Django</p>
+        <a href="project1.html" class="btn">Lihat Detail</a>
+      </div>
+      <div class="project-item">
+        <img src="assets/project2.png" alt="Proyek 2">
+        <h2>Project 2</h2>
+        <p>Desain Antarmuka Layanan Akademik Berbasis Mobile</p>
+        <a href="project2.html" class="btn">Lihat Detail</a>
+      </div>
+      <div class="project-item">
+        <img src="assets/project3.png" alt="Proyek 3">
+        <h2>Project 3</h2>
+        <p>Aplikasi Pencarian Motor menggunakan Dart</p>
+        <a href="project3.html" class="btn">Lihat Detail</a>
+      </div>
+      <div class="project-item">
+        <img src="assets/project4.png" alt="Proyek 4">
+        <h2>Project 4</h2>
+        <p>Aplikasi Bucket Sort</p>
+        <a href="project4.html" class="btn">Lihat Detail</a>
+      </div>
+      <div class="project-item">
+        <img src="assets/project5.png" alt="Proyek 5">
+        <h2>Project 5</h2>
+        <p>Pengembangan Sistem Point Of Sales Toko Roti</p>
+        <a href="project5.html" class="btn">Lihat Detail</a>
+      </div>
+      <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+    </div>
+  </div>
+
+  <div id="education" class="wrapper section">
+    <h1>My Education</h1>
+    <div class="education-content">
+      <div class="education-img">
+        <img src="education/unpri.jpg" alt="Education Image">
+      </div>
+      <div class="education-text">
+        <p>Saya adalah mahasiswa semester 4 di Universitas Prima Indonesia (UNPRI), jurusan Teknik Informatika di Fakultas Sains dan Teknologi.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <h3>Rohid</h3>
+        <p>Terima kasih telah mengunjungi portofolio saya. Untuk informasi lebih lanjut, silakan hubungi saya melalui media sosial di bawah ini.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/rohit-pahti-a866a5312/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/rohit_pahti07/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/RPahti63775" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/rohit.pahti?locale=id_ID" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 0) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
